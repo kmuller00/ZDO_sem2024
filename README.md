@@ -37,9 +37,21 @@ Tento notebook se zaměřuje na vyhodnocení přesnosti anotací provedených na
 - Porovnání ručních a automatických anotací.
 - Výpočet metrik přesnosti, jako je přesnost a F1 skóre.
 
+### 4. `run.py`
+
+**Popis:**
+Tento skript slouží jako hlavní spouštěcí skript pro projekt. Provádí všechny hlavní kroky zpracování a analýzy dat včetně načtení dat, předzpracování, tréninku modelů a vyhodnocení výsledků.
+
+**Hlavní kroky:**
+- Načtení a předzpracování obrazových dat.
+- Aplikace hranového detektoru.
+- Morfologické operace pro zvýraznění švů.
+- Trénink a vyhodnocení modelů.
+- Výpočet a zobrazení metrik přesnosti.
+
 ## Požadavky
 
-Pro spuštění těchto notebooků je potřeba mít nainstalované následující knihovny:
+Pro spuštění těchto notebooků a skriptu je potřeba mít nainstalované následující knihovny:
 - numpy
 - pandas
 - matplotlib
@@ -54,5 +66,3 @@ Pro spuštění těchto notebooků je potřeba mít nainstalované následujíc�
    ```sh
    git clone https://github.com/kmuller00/ZDO_sem2024.git
    cd projekt
-2. pip install -r requirements.txt
-3. jupyter notebook
